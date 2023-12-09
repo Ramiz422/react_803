@@ -5,3 +5,144 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+header{
+    max-width: 1250px;
+    margin: auto;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #C4C4C4;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+     
+
+}
+nav ul li:hover {
+    
+    color: #058B8C;
+    cursor: pointer;    
+}
+
+.header-btn {
+    border-radius: 48px;
+    background:#058B8C ;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 15px;
+    color: #FFFFFF;
+}
+.header-btn:hover {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+footer {
+max-width: 1250px;
+margin: auto;
+padding: 12px;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+align-items:flex-start;
+
+}
+.column-one{
+    margin-top: 10px;
+}
+.column-one p {
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 8px;    
+}
+.column-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:flex-start;
+    column-gap: 20px;
+    
+    margin: 0px 50px;
+    
+    
+}
+.column-two ul li {
+    list-style: none;
+    color:#8F8F8F;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+padding: 15px 0px;
+
+
+
+}
+
+
+
+.column-three ul li {
+    
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    list-style: none;
+    padding: 15px 0px;
+    
+}
+.newsletter {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.newsletter input {
+    width: 70%;
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 35px;
+    padding-left: 20px;
+    
+}
+.newsletter button {
+    border-radius: 48px;
+background: #058B8C;
+box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+color: #FFFFFF;
+width: 23%;
+margin-left: 10px;
+border: none;
+border-radius: 48px;
+background: #058B8C;
+box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+color: #FFFFFF;
+color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+
+
+
